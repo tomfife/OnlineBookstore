@@ -76,3 +76,4 @@
 /Users/thomas.fife/Projects/OnlineBookstore/OnlineBookstore/obj/Debug/netcoreapp3.1/OnlineBookstore.dll
 /Users/thomas.fife/Projects/OnlineBookstore/OnlineBookstore/obj/Debug/netcoreapp3.1/OnlineBookstore.pdb
 /Users/thomas.fife/Projects/OnlineBookstore/OnlineBookstore/obj/Debug/netcoreapp3.1/OnlineBookstore.genruntimeconfig.cache
+/Users/thomas.fife/Projects/OnlineBookstore/OnlineBookstore/bin/Debug/netcoreapp3.1/mono_crash.11a6748113.0.json
