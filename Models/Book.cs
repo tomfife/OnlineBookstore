@@ -25,6 +25,9 @@ namespace OnlineBookstore.Models
         [Required(ErrorMessage = "Please enter the Author's First Name")]
         public string AuthorLastName { get; set; }
 
+        [Required(ErrorMessage = "Please enter how many pages are in the book")]
+        public int PagesInBook { get; set; }
+
         [Required(ErrorMessage = "Please enter a classification")]
         public string Classification { get; set; }
 

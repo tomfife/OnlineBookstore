@@ -29,6 +29,8 @@ namespace OnlineBookstore.Models
 
                         Publisher = "Signet",
 
+                        PagesInBook = 1488,
+
                         ISBN = "978-0451419439",
 
                         Classification = "Fiction",
@@ -50,6 +52,8 @@ namespace OnlineBookstore.Models
 
                         Publisher = "Simon & Schuster",
 
+                        PagesInBook = 944,
+
                         ISBN = "978-0743270755",
 
                         Classification = "Non-Fiction",
@@ -68,6 +72,8 @@ namespace OnlineBookstore.Models
                         AuthorLastName = "Schroeder",
 
                         Publisher = "Bantam",
+
+                        PagesInBook = 832,
 
                         ISBN = "978-0553384611",
 
@@ -90,6 +96,8 @@ namespace OnlineBookstore.Models
 
                     Publisher = "Random House",
 
+                    PagesInBook = 864,
+
                     ISBN = "978-0812981254",
 
                     Classification = "Non-Fiction",
@@ -108,6 +116,8 @@ namespace OnlineBookstore.Models
                     AuthorLastName = "Hillenbrand",
 
                     Publisher = "Random House",
+
+                    PagesInBook = 528,
 
                     ISBN = "978-0812974492",
 
@@ -129,6 +139,8 @@ namespace OnlineBookstore.Models
 
                     Publisher = "Vintage",
 
+                    PagesInBook = 288,
+
                     ISBN = "978-0804171281",
 
                     Classification = "Fiction",
@@ -147,6 +159,8 @@ namespace OnlineBookstore.Models
                     AuthorLastName = "Newport",
 
                     Publisher = "Grand Central Publishing",
+
+                    PagesInBook = 304,
 
                     ISBN = "978-1455586691",
 
@@ -167,6 +181,8 @@ namespace OnlineBookstore.Models
 
                     Publisher = "Grand Central Publishing",
 
+                    PagesInBook = 240,
+
                     ISBN = "978-1455523023",
 
                     Classification = "Non-Fiction",
@@ -185,6 +201,8 @@ namespace OnlineBookstore.Models
                     AuthorLastName = "Branson",
 
                     Publisher = "Portfolio",
+
+                    PagesInBook = 400,
 
                     ISBN = "978-1591847984",
 
@@ -205,6 +223,8 @@ namespace OnlineBookstore.Models
 
                      Publisher = "Bantam",
 
+                     PagesInBook = 642,
+
                      ISBN = "978-0553393613",
 
                      Classification = "Fiction",
@@ -212,6 +232,73 @@ namespace OnlineBookstore.Models
                      Category = "Thrillers",
 
                      BookPrice = 15.03
+                 },
+
+                 new Book
+                 {
+                     BookTitle = "How Will You Measure Your Life",
+
+                     AuthorFirstName = "Clayton",
+
+                     AuthorMiddleName = "M.",
+
+                     AuthorLastName = "Christensen",
+
+                     Publisher = "Haper Collins",
+
+                     PagesInBook = 221,
+
+                     ISBN = "978-0062102416",
+
+                     Classification = "Non-Fiction",
+
+                     Category = "Business",
+
+                     BookPrice = 18.67
+                 },
+
+                 new Book
+                 {
+                     BookTitle = "The Power of Habit: Why We Do What We do in Life and Business",
+
+                     AuthorFirstName = "Charles",
+
+                     AuthorLastName = "Duhigg",
+
+                     Publisher = "Random House",
+
+                     PagesInBook = 416,
+
+                     ISBN = "978-0812981605",
+
+                     Classification = "Non-Fiction",
+
+                     Category = "Self-Help",
+
+                     BookPrice = 17.78
+                 },
+
+                 new Book
+                 {
+                     BookTitle = "Drawing on the Powers of Heaven",
+
+                     AuthorFirstName = "Grant",
+
+                     AuthorMiddleName = "Von",
+
+                     AuthorLastName = "Harrison",
+
+                     Publisher = "Publishers Book Sales",
+
+                     PagesInBook = 85,
+
+                     ISBN = "978-0910558006",
+
+                     Classification = "Non-Fiction",
+
+                     Category = "Gospel",
+
+                     BookPrice = 11.99
                  }
                 );
 

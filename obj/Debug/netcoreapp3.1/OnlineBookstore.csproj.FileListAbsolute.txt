@@ -1,5 +1,6 @@
 /Users/thomas.fife/Projects/OnlineBookstore/OnlineBookstore/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /Users/thomas.fife/Projects/OnlineBookstore/OnlineBookstore/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/thomas.fife/Projects/OnlineBookstore/OnlineBookstore/bin/Debug/netcoreapp3.1/mono_crash.11a6748113.0.json
 /Users/thomas.fife/Projects/OnlineBookstore/OnlineBookstore/bin/Debug/netcoreapp3.1/OnlineBookstore.deps.json
 /Users/thomas.fife/Projects/OnlineBookstore/OnlineBookstore/bin/Debug/netcoreapp3.1/OnlineBookstore.runtimeconfig.json
 /Users/thomas.fife/Projects/OnlineBookstore/OnlineBookstore/bin/Debug/netcoreapp3.1/OnlineBookstore.runtimeconfig.dev.json
@@ -49,7 +50,6 @@
 /Users/thomas.fife/Projects/OnlineBookstore/OnlineBookstore/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb
 /Users/thomas.fife/Projects/OnlineBookstore/OnlineBookstore/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
 /Users/thomas.fife/Projects/OnlineBookstore/OnlineBookstore/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
-/Users/thomas.fife/Projects/OnlineBookstore/OnlineBookstore/obj/Debug/netcoreapp3.1/OnlineBookstore.csprojAssemblyReference.cache
 /Users/thomas.fife/Projects/OnlineBookstore/OnlineBookstore/obj/Debug/netcoreapp3.1/OnlineBookstore.AssemblyInfoInputs.cache
 /Users/thomas.fife/Projects/OnlineBookstore/OnlineBookstore/obj/Debug/netcoreapp3.1/OnlineBookstore.AssemblyInfo.cs
 /Users/thomas.fife/Projects/OnlineBookstore/OnlineBookstore/obj/Debug/netcoreapp3.1/OnlineBookstore.csproj.CoreCompileInputs.cache
@@ -76,4 +76,3 @@
 /Users/thomas.fife/Projects/OnlineBookstore/OnlineBookstore/obj/Debug/netcoreapp3.1/OnlineBookstore.dll
 /Users/thomas.fife/Projects/OnlineBookstore/OnlineBookstore/obj/Debug/netcoreapp3.1/OnlineBookstore.pdb
 /Users/thomas.fife/Projects/OnlineBookstore/OnlineBookstore/obj/Debug/netcoreapp3.1/OnlineBookstore.genruntimeconfig.cache
-/Users/thomas.fife/Projects/OnlineBookstore/OnlineBookstore/bin/Debug/netcoreapp3.1/mono_crash.11a6748113.0.json

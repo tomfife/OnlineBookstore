@@ -55,6 +55,9 @@ namespace OnlineBookstore.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("PagesInBook")
+                        .HasColumnType("int");
+
                     b.Property<string>("Publisher")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
