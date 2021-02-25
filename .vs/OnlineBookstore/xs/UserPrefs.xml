@@ -1,35 +1,41 @@
 ﻿<Properties StartupConfiguration="{82BC641D-D24F-48E3-9B88-A224DC4DDBFD}|Default">
   <MonoDevelop.Ide.ItemProperties.OnlineBookstore PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="OnlineBookstore/Infrastructure/PageLinkTagHelper.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="OnlineBookstore/Views/Shared/_Layout.cshtml">
     <Files>
-      <File FileName="OnlineBookstore/Views/Shared/_Layout.cshtml" Line="22" Column="34" />
-      <File FileName="OnlineBookstore/Views/Home/Index.cshtml" Line="31" Column="27" />
-      <File FileName="OnlineBookstore/Models/Book.cs" />
-      <File FileName="OnlineBookstore/appsettings.json" />
-      <File FileName="OnlineBookstore/Startup.cs" Line="69" Column="1" />
-      <File FileName="OnlineBookstore/Models/IBookRepository.cs" />
-      <File FileName="OnlineBookstore/Models/EFBookRepository.cs" />
-      <File FileName="OnlineBookstore/Models/SeedData.cs" />
-      <File FileName="OnlineBookstore/Controllers/HomeController.cs" Line="35" Column="18" />
-      <File FileName="OnlineBookstore/Program.cs" />
-      <File FileName="OnlineBookstore/Properties/launchSettings.json" />
-      <File FileName="OnlineBookstore/Views/Home/Privacy.cshtml" />
-      <File FileName="OnlineBookstore/Views/_ViewImports.cshtml" />
-      <File FileName="OnlineBookstore/Views/_ViewStart.cshtml" />
-      <File FileName="OnlineBookstore/appsettings.Development.json" />
-      <File FileName="OnlineBookstore/Models/ViewModels/BookListViewModel.cs" Line="14" Column="1" />
       <File FileName="OnlineBookstore/Models/ViewModels/PagingInfo.cs" Line="15" Column="1" />
-      <File FileName="OnlineBookstore/Infrastructure/PageLinkTagHelper.cs" Line="1" Column="1" />
+      <File FileName="OnlineBookstore/Infrastructure/PageLinkTagHelper.cs" />
+      <File FileName="OnlineBookstore/Views/_ViewImports.cshtml" />
+      <File FileName="OnlineBookstore/Models/ViewModels/BookListViewModel.cs" />
+      <File FileName="OnlineBookstore/Controllers/HomeController.cs" />
+      <File FileName="OnlineBookstore/Views/Home/Index.cshtml" />
+      <File FileName="OnlineBookstore/Startup.cs" />
+      <File FileName="OnlineBookstore/Models/Book.cs" />
+      <File FileName="OnlineBookstore/Models/BookDbContext.cs" />
+      <File FileName="OnlineBookstore/Models/EFBookRepository.cs" />
+      <File FileName="OnlineBookstore/Models/IBookRepository.cs" />
+      <File FileName="OnlineBookstore/Models/ErrorViewModel.cs" />
+      <File FileName="OnlineBookstore/Models/SeedData.cs" />
+      <File FileName="OnlineBookstore/Views/Shared/_Layout.cshtml" Line="9" Column="17" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="OnlineBookstore" expanded="True">
             <Node name="OnlineBookstore" expanded="True">
-              <Node name="Infrastructure" expanded="True">
-                <Node name="PageLinkTagHelper.cs" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Infrastructure" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="ViewModels" expanded="True" />
               </Node>
-              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True">
+                  <Node name="fontawesome-free-5.15.2-web" selected="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
