@@ -29,7 +29,7 @@ namespace OnlineBookstore
 
             services.AddDbContext<BookDbContext>(options => // Add Db Context of a BookDbContext type
             {
-                options.UseSqlServer(Configuration["ConnectionStrings:OnlineBookstoreConnection"]); // Set the options in BooksConnection to use SqlServer - this is passed to the config file - connected to Conn.String.
+                options.UseSqlite(Configuration["ConnectionStrings:OnlineBookstoreConnection"]); // Set the options in BooksConnection to use SqlServer - this is passed to the config file - connected to Conn.String.
             });
 
             services.AddScoped<IBookRepository, EFBookRepository>();
