@@ -259,7 +259,7 @@ namespace OnlineBookstore.Models
 
                  new Book
                  {
-                     BookTitle = "The Power of Habit: Why We Do What We do in Life and Business",
+                     BookTitle = "The Power of Habit",
 
                      AuthorFirstName = "Charles",
 
