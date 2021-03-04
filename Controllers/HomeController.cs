@@ -24,12 +24,13 @@ namespace OnlineBookstore.Controllers
             _repository = repository;
         }
 
-        public IActionResult Index(int page = 1)    // We are passing in the page, but we set a default of 1
+        public IActionResult Index(string category, int page = 1)    // We are passing in the page, but we set a default of 1
         {
             return View(new BookListViewModel
             {
                 Books = _repository.Books
-                    .OrderBy(p => p.BookId)
+                    .Where(p => category == null || p.Category == category)     // If category is null or category is = to the category
+                    .OrderBy(p => p.BookId)                                         // passed in then select it
                     .Skip((page - 1) * PageSize)
                     .Take(PageSize)
                 ,
@@ -38,7 +39,9 @@ namespace OnlineBookstore.Controllers
                     CurrentPage = page,
                     ItemsPerPage = PageSize,
                     TotalNumItems = _repository.Books.Count()
-                }
+                },
+
+                CurrentCategory = category
             });
         }
 

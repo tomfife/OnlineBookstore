@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.Routing;
@@ -29,6 +30,13 @@ namespace OnlineBookstore.Infrastructure
         public string PageAction { get; set; }
 
 
+        // Storing a key and whatever object goes with that key
+
+        [HtmlAttributeName(DictionaryAttributePrefix = "page-url-")]
+
+        public Dictionary<string, object> PageUrlValues { get; set; } = new Dictionary<string, object>();
+
+
         public bool PageClassesEnabled { get; set; } = false;
 
         public string PageClass { get; set; }
@@ -50,7 +58,14 @@ namespace OnlineBookstore.Infrastructure
             for (int i = 1; i <= PageModel.TotalPages; i++)     // PagingInfo object, pull Total Pages from class
             {
                 TagBuilder tag = new TagBuilder("a");
-                tag.Attributes["href"] = urlHelper.Action(PageAction, new { page = i });
+
+                // Ask about this 
+                PageUrlValues["page"] = i;
+                tag.Attributes["href"] = urlHelper.Action(PageAction,
+                    PageUrlValues);
+
+                // This is what was there before
+                //tag.Attributes["href"] = urlHelper.Action(PageAction, new { page = i });
 
                 if (PageClassesEnabled)
                 {
