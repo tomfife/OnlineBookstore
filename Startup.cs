@@ -69,6 +69,10 @@ namespace OnlineBookstore
                     "Books/{category}",
                     new { Controller = "Home", action = "Index", page = 1 });
 
+                endpoints.MapControllerRoute("category",
+                    "{category}",
+                    new { Controller = "Home", action = "Index", page = 1 });
+
                 endpoints.MapControllerRoute(
                     "pagination",
                     "Books/P{page:int}",
